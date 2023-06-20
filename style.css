@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Mono:ital,wght@0,600;1,500&family=Signika:wght@300&family=Unbounded&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    
+}
+.intro{
+    text-align: center;
+}
+
+.page-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    margin-bottom: 3rem;
+    
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #333333;
+    background-color: #898686;
+}
+
+h1, h2, h3 {
+    font-family: 'Signika', sans-serif;
+}
+
+.summary,
+.preamble,
+.explanation,
+.participation,
+.benefits {
+    background-color: #e5e5e5;
+    padding: 2%;
+}
+
+.preamble,.participation,.benefits,.explanation{
+    margin-top: 2%;
+}
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    padding: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.explanation,
+.participation,
+.benefits {
+    flex-basis: 48%;
+    margin-bottom: 3%;
+}
+
+.summary:hover,
+.preamble:hover,
+.explanation:hover,
+.participation:hover,
+.benefits:hover {
+    background-color: #c5c5c5;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.participation, .explanation, .preamble{
+    margin-top: 2%;
+    
+}
+div.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 2em;
+    background-size: cover;
+    background-position: center;
+}
+
+div.wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #555555; 
+    color: #ffffff; 
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+footer:hover {
+    background-color: #333333;}
+
+
